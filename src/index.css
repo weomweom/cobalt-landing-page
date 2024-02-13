@@ -1,13 +1,44 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--bg-color: #09090B;
+	--main-text-color: #A1A1AA;
+	--accent-text-color: #E4E4E7;
+	--accent-color: #22D3EE;
+	
+	--font-family: 'Inter', sans-serif;
+
+	--nav-height: 74px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::-moz-selection { /* Code for Firefox */
+	color: var(--bg-color);
+	background: var(--accent-color);
+}
+  
+::selection {
+	color: var(--bg-color);
+	background: var(--accent-color);
+}
+
+::-webkit-scrollbar {
+	width: 6px;
+}
+  
+  ::-webkit-scrollbar-track {
+	background: var(--bg-color);
+}
+  
+  ::-webkit-scrollbar-thumb {
+	background-color: var(--main-text-color);
+	border-radius: 10px;
+}
+
+body {
+	font-family: var(--font-family);
+	@apply m-0 bg-[--bg-color] text-[--main-text-color] overflow-hidden min-[992px]:overflow-auto
 }
