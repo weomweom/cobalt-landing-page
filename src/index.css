@@ -38,7 +38,28 @@
 	border-radius: 10px;
 }
 
+html{
+	@apply scroll-smooth
+}
+
 body {
 	font-family: var(--font-family);
 	@apply m-0 bg-[--bg-color] text-[--main-text-color] overflow-hidden min-[992px]:overflow-auto
+}
+
+.header {
+	@apply font-bold text-[40px] bg-gradient-to-r from-white from-10% to-[#71717A] text-transparent bg-clip-text leading-10
+}
+
+.card {
+	@apply flex flex-col bg-[#18181B] rounded-2xl border-2 border-[#202020] pb-8
+}
+
+.card h5 {
+	@apply text-[--accent-text-color] pt-5 pb-3
+}
+
+.card h5,
+.card p {
+	@apply px-8
 }

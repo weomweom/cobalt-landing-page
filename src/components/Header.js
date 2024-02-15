@@ -5,7 +5,7 @@ import stars from '../img/stars.png';
 
 function Header() {
     return ( 
-        <div className='flex flex-col justify-center h-[100dvh] text-center relative'>
+        <div className='flex flex-col justify-center h-[calc(100dvh+var(--nav-height))] text-center relative'>
             <h1 className="font-bold text-7xl bg-gradient-to-r from-white from-10% to-[#71717A] text-transparent bg-clip-text">Unleash the power of<br/>intuitive finance</h1>
             
             <h4 className="pt-8 text-xl leading-8">Say goodbye to the outdated financial tools. Every small business owner,<br/>regardless of the background, can now manage their business like a pro. Simple.<br/>Intuitive. And never boring.</h4>
