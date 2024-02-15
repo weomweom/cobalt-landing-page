@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/cobalt-landing-page/static/css/main.15c8d0b9.css",
-    "main.js": "/cobalt-landing-page/static/js/main.02deaf78.js",
+    "main.css": "/cobalt-landing-page/static/css/main.0550a473.css",
+    "main.js": "/cobalt-landing-page/static/js/main.1e979e16.js",
+    "static/media/app.png": "/cobalt-landing-page/static/media/app.52c34ec459b21000ac12.png",
     "static/media/radial-gr.png": "/cobalt-landing-page/static/media/radial-gr.486b2a8d95f649e61748.png",
-    "static/media/app.png": "/cobalt-landing-page/static/media/app.8fddc8a877a19bcf488b.png",
+    "static/media/card-4.png": "/cobalt-landing-page/static/media/card-4.830ba2be989f708a0689.png",
+    "static/media/card-1.png": "/cobalt-landing-page/static/media/card-1.23e2dec9dea291dc9fcb.png",
+    "static/media/card-3.png": "/cobalt-landing-page/static/media/card-3.fc1179000a5c459ca29b.png",
+    "static/media/card-2.png": "/cobalt-landing-page/static/media/card-2.8e9cebc5bfdff266e127.png",
+    "static/media/card-5.png": "/cobalt-landing-page/static/media/card-5.0ad3cfecadc6d03fa108.png",
     "static/media/Icon.svg": "/cobalt-landing-page/static/media/Icon.a834fd99f154112d362d1032397ee4db.svg",
     "index.html": "/cobalt-landing-page/index.html",
     "static/media/Arrow.svg": "/cobalt-landing-page/static/media/Arrow.2d356b0d41bab08f7c9e18492e7ac48e.svg",
-    "main.15c8d0b9.css.map": "/cobalt-landing-page/static/css/main.15c8d0b9.css.map",
-    "main.02deaf78.js.map": "/cobalt-landing-page/static/js/main.02deaf78.js.map"
+    "main.0550a473.css.map": "/cobalt-landing-page/static/css/main.0550a473.css.map",
+    "main.1e979e16.js.map": "/cobalt-landing-page/static/js/main.1e979e16.js.map"
   },
   "entrypoints": [
-    "static/css/main.15c8d0b9.css",
-    "static/js/main.02deaf78.js"
+    "static/css/main.0550a473.css",
+    "static/js/main.1e979e16.js"
   ]
 }
