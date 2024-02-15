@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Content from './components/Content';
 
 import radial from './img/radial-gr.png';
+import Footer from './components/Footer';
 
 function App() {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -37,7 +38,7 @@ function App() {
                 <Header/>
                 <Content/>
             </div>
-
+            <Footer/>
         </div>
     );
 }

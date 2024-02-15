@@ -29,11 +29,11 @@
 	width: 6px;
 }
   
-  ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
 	background: var(--bg-color);
 }
   
-  ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
 	background-color: var(--main-text-color);
 	border-radius: 10px;
 }
@@ -45,6 +45,14 @@ html{
 body {
 	font-family: var(--font-family);
 	@apply m-0 bg-[--bg-color] text-[--main-text-color] overflow-hidden min-[992px]:overflow-auto
+}
+
+svg {
+	@apply fill-[#A1A1AA] transition ease-in cursor-pointer
+}
+
+svg:hover {
+	@apply fill-[--accent-color]
 }
 
 .header {
