@@ -3,12 +3,10 @@ import logo from '../img/Icon.svg';
 
 const navLinks = [
     {
-        link: '#',
         label: 'Blog',
         isButton: false,
     },
     {
-        link: '#',
         label: 'Join the waitlist',
         isButton: true,
     }
@@ -22,9 +20,9 @@ function Nav() {
                 {navLinks.map((link, i) => (
                     <li key={i}>
                         {link.isButton ? <StyledButton link={link}/> : 
-                            <a className='transition ease-in hover:text-[--accent-text-color]' href={link.link}>
+                            <div className='transition ease-in cursor-pointer hover:text-[--accent-text-color]'>
                                 {link.label}                        
-                            </a>
+                            </div>
                         }
                     </li>
                 ))}

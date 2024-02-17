@@ -4,6 +4,8 @@ import card2 from '../img/card-2.png';
 import card3 from '../img/card-3.png';
 import card4 from '../img/card-4.png';
 import card5 from '../img/card-5.png';
+import card6 from '../img/card-6.png';
+import card7 from '../img/card-7.png';
 
 // -------- maybe I'll separate it to components later --------
 
@@ -19,8 +21,8 @@ function Content() {
             </div>
 
             <div className='pt-20'>
-                <h3 className='header inline-block pb-5'>Everything you need.<br/> Nothing you don’t</h3>
-                <p className='max-w-[50%]'>
+                <h3 className='header'>Everything you need.<br/> Nothing you don’t</h3>
+                <p className='max-w-[50%] pt-4'>
                     Financial management and visibility in one place. Experience <span className='text-[--accent-text-color]'>a flexible toolkit</span>  that makes every task feel like a breeze.
                 </p>
                 <div className='grid grid-cols-3 gap-8 py-8'>
@@ -59,6 +61,29 @@ function Content() {
                                 <h5>You’re in control</h5>
                                 <p>Lightning fast. Shortcuts for everything. Command+K on Mac, Ctrl+K on Windows. Dark mode.</p>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='pt-20'>
+                <h3 className='header'>Meet Genius</h3>
+                <p className='max-w-[50%] pt-4'>
+                Our AI-driven assistant is designed to decode complex financial figures and <span className='text-[--accent-text-color]'>illuminate key trends</span> in your business.
+                </p>
+                <div className='grid grid-cols-2 gap-8 py-8'>
+                    <div className="card">
+                        <img src={card6} alt="" />
+                        <div>
+                            <h5>Smart forecasting</h5>
+                            <p>Harness the power of Cobalt's predictive analytics to map out the financial future of your business.</p>                        
+                        </div>
+                    </div>
+                    <div className="card">
+                        <img src={card7} alt="" />
+                        <div>
+                            <h5>Chat with Genius</h5>
+                            <p>Just ask. With Genius by your side, navigating the financial maze becomes intuitive and effortless.</p>                        
                         </div>
                     </div>
                 </div>

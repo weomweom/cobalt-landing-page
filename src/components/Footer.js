@@ -6,7 +6,7 @@ import Fb from './Icons/Fb';
 function Footer() {
     return (
         <div className="flex flex-col h-[100dvh] bg-[url('img/footer-bg.png')] bg-no-repeat bg-cover px-20 pt-28">
-            <div className='h-full flex flex-col justify-center items-center gap-10'>
+            <div className='h-full flex flex-col items-center gap-8'>
                 <span className='h-px w-1/3 bg-gradient-to-r from-transparent via-[--accent-color] to-transparent mb-12'></span>
 
                 <h3 className='header text-center'>See where financial automation can <br/>take your business.</h3>
@@ -14,18 +14,18 @@ function Footer() {
                 <StyledButton link={{link: '#', label: 'Join the waitlist'}}/>
             </div>
 
-            <div className='flex flex-col gap-5 pb-10 pt-20 text-sm'>
+            <div className='flex flex-col gap-5 pb-10 text-sm'>
                 <span className='h-0.5 w-full bg-[#1f3542] '></span>
 
                 <div className='w-full flex justify-between'>
                     <div className='flex gap-6'>
-                        <div>
+                        <div className='cursor-pointer transition hover:text-[--accent-text-color]'>
                             © 2023 Cobalt Financial Technologies Inc.
                         </div>
-                        <div className='cursor-pointer'>
+                        <div className='cursor-pointer transition hover:text-[--accent-text-color]'>
                             Privacy Policy
                         </div>
-                        <div className='cursor-pointer'>
+                        <div className='cursor-pointer transition hover:text-[--accent-text-color]'>
                             Terms of Use
                         </div>
                     </div>

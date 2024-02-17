@@ -52,11 +52,11 @@ svg {
 }
 
 svg:hover {
-	@apply fill-[--accent-color]
+	@apply fill-[--accent-text-color]
 }
 
 .header {
-	@apply font-bold text-[40px] bg-gradient-to-r from-white from-10% to-[#71717A] text-transparent bg-clip-text leading-10
+	@apply inline-block font-bold text-[40px] bg-gradient-to-r from-white from-10% to-[#71717A] text-transparent bg-clip-text leading-[3rem]
 }
 
 .card {
@@ -70,4 +70,9 @@ svg:hover {
 .card h5,
 .card p {
 	@apply px-8
+}
+
+.cursor {
+	background: radial-gradient(400px at 320px, rgba(34, 211, 238, .15), transparent 80%);
+	@apply fixed left-0 top-0 w-[650px] h-[650px] pointer-events-none select-none
 }
