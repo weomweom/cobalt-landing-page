@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/cobalt-landing-page/static/css/main.89091bed.css",
-    "main.js": "/cobalt-landing-page/static/js/main.9e1d67db.js",
+    "main.css": "/cobalt-landing-page/static/css/main.299dea9e.css",
+    "main.js": "/cobalt-landing-page/static/js/main.a591f818.js",
     "static/media/footer-bg.png": "/cobalt-landing-page/static/media/footer-bg.ee12fc58a38e6498afde.png",
     "static/media/app.png": "/cobalt-landing-page/static/media/app.52c34ec459b21000ac12.png",
     "static/media/radial-gr.png": "/cobalt-landing-page/static/media/radial-gr.486b2a8d95f649e61748.png",
+    "static/media/card-6.png": "/cobalt-landing-page/static/media/card-6.293061478f33162080f4.png",
     "static/media/card-4.png": "/cobalt-landing-page/static/media/card-4.830ba2be989f708a0689.png",
     "static/media/card-1.png": "/cobalt-landing-page/static/media/card-1.23e2dec9dea291dc9fcb.png",
     "static/media/card-3.png": "/cobalt-landing-page/static/media/card-3.fc1179000a5c459ca29b.png",
     "static/media/card-2.png": "/cobalt-landing-page/static/media/card-2.8e9cebc5bfdff266e127.png",
+    "static/media/card-7.png": "/cobalt-landing-page/static/media/card-7.5f96fa8d0ad8ebec3b89.png",
     "static/media/card-5.png": "/cobalt-landing-page/static/media/card-5.0ad3cfecadc6d03fa108.png",
     "static/media/Icon.svg": "/cobalt-landing-page/static/media/Icon.a834fd99f154112d362d1032397ee4db.svg",
     "index.html": "/cobalt-landing-page/index.html",
     "static/media/Arrow.svg": "/cobalt-landing-page/static/media/Arrow.2d356b0d41bab08f7c9e18492e7ac48e.svg",
-    "main.89091bed.css.map": "/cobalt-landing-page/static/css/main.89091bed.css.map",
-    "main.9e1d67db.js.map": "/cobalt-landing-page/static/js/main.9e1d67db.js.map"
+    "main.299dea9e.css.map": "/cobalt-landing-page/static/css/main.299dea9e.css.map",
+    "main.a591f818.js.map": "/cobalt-landing-page/static/js/main.a591f818.js.map"
   },
   "entrypoints": [
-    "static/css/main.89091bed.css",
-    "static/js/main.9e1d67db.js"
+    "static/css/main.299dea9e.css",
+    "static/js/main.a591f818.js"
   ]
 }
