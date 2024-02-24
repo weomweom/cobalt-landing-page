@@ -3,13 +3,15 @@ import { useEffect, useState } from 'react';
 import Nav from './components/Nav';
 import Header from './components/Header';
 import Content from './components/Content';
+import Footer from './components/Footer';
+import Arrow from './components/Icons/Arrow';
 
 import radial from './img/radial-gr.png';
-import Footer from './components/Footer';
 
 function App() {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-    const [cursorXY, setCursorXY] = useState({ x: -100, y: -100 })
+    const [cursorXY, setCursorXY] = useState({ x: -550, y: -550 });
+    const [showButton, setShowButton] = useState(false);
 
     useEffect(() => {
       const handleResize = () => {
@@ -22,15 +24,30 @@ function App() {
         setCursorXY({ x, y })
       }
 
-      window.addEventListener('mousemove', moveCursor)
+      const handleScroll = () => {
+        const headerSection = document.getElementById('header');
+        if (headerSection) {
+          const headerSectionHeight = headerSection.offsetHeight;
+          const scrolled = window.scrollY;
   
+          setShowButton(scrolled > headerSectionHeight);
+        }
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+      window.addEventListener('mousemove', moveCursor)
       window.addEventListener('resize', handleResize);
   
       return () => {
         window.removeEventListener('resize', handleResize);
-        window.removeEventListener('mousemove', moveCursor)
+        window.removeEventListener('mousemove', moveCursor);
+        window.removeEventListener('scroll', handleScroll)
       };
     }, []);
+
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0 });
+    };
 
     return (
         <div className="App">
@@ -48,6 +65,10 @@ function App() {
                     </div>
                 </div>
             }
+
+            <button onClick={scrollToTop} className={`fixed bottom-5 right-4 z-50 transition duration-300 ${showButton ? 'scale-100' : 'scale-0 pointer-events-none select-none'}`}>
+                <Arrow/>
+            </button>
 
             <Nav/>
             <div className='px-20 relative'>

@@ -11,7 +11,7 @@ import card7 from '../img/card-7.png';
 
 function Content() {
     return (
-        <>
+        <section id='content'>
             <div className='flex justify-center items-center h-[100dvh]'>
                 <img src={app} alt='app screenshot' className='max-h-[calc(100dvh-100px)]'/>
             </div>
@@ -88,7 +88,7 @@ function Content() {
                     </div>
                 </div>
             </div>
-        </>
+        </section>
     );
 }
 

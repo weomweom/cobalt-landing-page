@@ -4,6 +4,18 @@ import arrow from '../img/Arrow.svg';
 import stars from '../img/stars.png';
 
 function Header() {
+    const margin = 30;
+
+    const handleScrollToContent = () => {
+        const contentSection = document.getElementById('content');
+        if (contentSection) {
+            const contentPosition = contentSection.offsetTop - margin;
+            window.scrollTo({
+                top: contentPosition,
+            });
+        }
+    };
+
     return ( 
         <div className='flex flex-col justify-center h-[calc(100dvh+var(--nav-height))] text-center relative'>
             <h1 className="font-bold text-7xl bg-gradient-to-r from-white from-10% to-[#71717A] text-transparent bg-clip-text">Unleash the power of<br/>intuitive finance</h1>
@@ -12,7 +24,7 @@ function Header() {
             <div className="pt-14"><StyledButton link={{label: 'Join the waitlist', link: '#'}}/></div>
             <div className="flex flex-col items-center pt-14 gap-3">
                 <span>Learn more</span>
-                <img className="animate-wiggle" src={arrow} alt='arrow'/>
+                <button onClick={handleScrollToContent}><img className="animate-wiggle" src={arrow} alt='arrow'/></button>
             </div>
 
             <img src={stars} alt='stars' className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/3 z-[-1] select-none'/>

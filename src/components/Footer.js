@@ -5,8 +5,8 @@ import Fb from './Icons/Fb';
 
 function Footer() {
     return (
-        <div className="flex flex-col h-[100dvh] bg-[url('img/footer-bg.png')] bg-no-repeat bg-cover px-20 pt-28">
-            <div className='h-full flex flex-col items-center gap-8'>
+        <div className="flex flex-col h-[100dvh] gap-5 bg-[url('img/footer-bg.png')] bg-no-repeat bg-cover px-20 pt-28">
+            <div className='h-full flex flex-col items-center justify-center gap-8'>
                 <span className='h-px w-1/3 bg-gradient-to-r from-transparent via-[--accent-color] to-transparent mb-12'></span>
 
                 <h3 className='header text-center'>See where financial automation can <br/>take your business.</h3>
