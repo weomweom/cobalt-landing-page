@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cobalt-landing-page/static/css/main.420aec07.css",
-    "main.js": "/cobalt-landing-page/static/js/main.b639814e.js",
+    "main.js": "/cobalt-landing-page/static/js/main.219048b7.js",
     "static/media/footer-bg.png": "/cobalt-landing-page/static/media/footer-bg.ee12fc58a38e6498afde.png",
     "static/media/app.png": "/cobalt-landing-page/static/media/app.52c34ec459b21000ac12.png",
     "static/media/radial-gr.png": "/cobalt-landing-page/static/media/radial-gr.486b2a8d95f649e61748.png",
@@ -16,10 +16,10 @@
     "index.html": "/cobalt-landing-page/index.html",
     "static/media/Arrow.svg": "/cobalt-landing-page/static/media/Arrow.2d356b0d41bab08f7c9e18492e7ac48e.svg",
     "main.420aec07.css.map": "/cobalt-landing-page/static/css/main.420aec07.css.map",
-    "main.b639814e.js.map": "/cobalt-landing-page/static/js/main.b639814e.js.map"
+    "main.219048b7.js.map": "/cobalt-landing-page/static/js/main.219048b7.js.map"
   },
   "entrypoints": [
     "static/css/main.420aec07.css",
-    "static/js/main.b639814e.js"
+    "static/js/main.219048b7.js"
   ]
 }
